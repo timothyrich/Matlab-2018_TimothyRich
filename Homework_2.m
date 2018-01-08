@@ -1,5 +1,5 @@
 % Homework 2
-
+% make change
 str='MACARONI AND CHEESE';
 id1=[1 2 7 9 14:19];
 str(id1)
