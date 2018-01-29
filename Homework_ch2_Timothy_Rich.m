@@ -10,7 +10,7 @@ str1(11)='P';
 
 % b) Start with a string containing It’s pouring with rain and replace the p with an r and the r with a p.
 
-str2='It"s pouring with rain';
+str2='It''s pouring with rain'; % clever, eh
 str2(6)='r';
 str2(19)='p';
 % how do you write an apostrophe within a letter string?
@@ -19,7 +19,7 @@ str2(19)='p';
 
 str1='A PACK OF LIES';
 ind1=[3 11]; str1(ind1)=['L' 'P'];
-% not sure if this is what you're looking for here
+% not sure if this is what you're looking for here, YES
 str2='It"s pouring with rain';
 ind2=[6 19]; str2(ind2)=['r' 'p']
 
