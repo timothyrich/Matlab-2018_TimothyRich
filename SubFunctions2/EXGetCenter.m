@@ -1,0 +1,1 @@
+function [xcenter,ycenter] = EXGetCenter(mywindow)% EXGetCenter returns the center location in pixels% pass in:  window code% returns:  [x,y] center pixel values% jp, 5/31/02% 10/15/15  updated Screen call argswindowSize = Screen('Rect',mywindow);xcenter = round(windowSize(1,3)/2);ycenter = round(windowSize(1,4)/2);
